@@ -1,0 +1,9 @@
+m
+bC:\Users\Fon\source\repos\04-bp-master\BPCalculator\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.csutf-8m
+bC:\Users\Fon\source\repos\04-bp-master\BPCalculator\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.csutf-8o
+dC:\Users\Fon\source\repos\04-bp-master\BPCalculator\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.csutf-8v
+kC:\Users\Fon\source\repos\04-bp-master\BPCalculator\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.csutf-8ˆ
+}C:\Users\Fon\source\repos\04-bp-master\BPCalculator\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.csutf-8t
+iC:\Users\Fon\source\repos\04-bp-master\BPCalculator\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.csutf-8r
+gC:\Users\Fon\source\repos\04-bp-master\BPCalculator\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.csutf-8w
+lC:\Users\Fon\source\repos\04-bp-master\BPCalculator\obj\Debug\net5.0\BPCalculator.RazorTargetAssemblyInfo.csutf-8
