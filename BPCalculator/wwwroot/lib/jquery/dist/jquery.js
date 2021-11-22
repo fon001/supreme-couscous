@@ -129,7 +129,7 @@ function toType( obj ) {
 
 
 var
-	version = "3.6.0",
+	version = "3.3.1",
 
 	// Define a local copy of jQuery
 	jQuery = function( selector, context ) {
@@ -9893,8 +9893,9 @@ jQuery.fn.load = function( url, params, callback ) {
 
 				// If a selector was specified, locate the right elements in a dummy div
 				// Exclude scripts to avoid IE 'Permission Denied' errors
-				jQuery( "<div>" ).append( jQuery.parseHTML( responseText ) ).find( selector ) :
-
+				jQuery("<div>").append(jQuery.parseHTML(responseText)).find(selector) :
+				
+				
 				// Otherwise use the full result
 				responseText );
 
