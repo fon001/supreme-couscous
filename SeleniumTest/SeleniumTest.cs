@@ -20,7 +20,7 @@ namespace SeleniumTest
         [SetUp]
         public void OpenBrowser()
         {
-            driver.Navigate().GoToUrl("http://bpcalculator-dev.eba-4tckwpgi.eu-west-1.elasticbeanstalk.com/");
+            driver.Navigate().GoToUrl("http://bpcalapp-dev.eu-west-1.elasticbeanstalk.com");
             driver.Manage().Window.Maximize();
             Thread.Sleep(2000);
         }
