@@ -52,5 +52,9 @@ jobs:
         name: Selenium Tests Results
         path: TestResults/selenium.trx
       
-  
+  # login to Azure account
+    - uses: azure/login@v1
+      with:
+        creds: ${{ secrets.AZURE_CREDENTIALS }}                         # JSON objects whic represents service principal
+
 
