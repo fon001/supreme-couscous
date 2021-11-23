@@ -1,0 +1,16 @@
+name: BP Calculator
+
+on:
+  push:
+    branches: [ master ]
+
+jobs:
+  Build_Unit_Test:                                       
+    name: Build and Unit Test
+    runs-on: windows-latest
+    steps:
+    - uses: actions/checkout@v2
+    - name: Build for Release
+      run: dotnet build --configuration Release
+    - name: Run unit tests
+      run: dotnet test BPMUnitTest/BPMUnitTest.csproj --collect "Code coverage"
