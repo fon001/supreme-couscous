@@ -19,7 +19,7 @@ jobs:
     name: deploy to staging slot, run E2E tests, swap slots
     needs: build_unit_test
     environment:
-      name: QA
+      name: production
       url: https://bpcalculator20211123205548.azurewebsites.net                                 
     runs-on: windows-latest
     env:
