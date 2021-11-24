@@ -19,7 +19,7 @@ jobs:
     name: deploy to staging slot, run E2E tests, swap slots
     needs: build_unit_test
     environment:
-      name: production
+      name: QA
       url: https://bpcalculator20211123205548.azurewebsites.net                                 
     runs-on: windows-latest
     env:
@@ -38,11 +38,7 @@ jobs:
       with: 
         app-name: ${{ env.AZURE_WEBAPP_NAME }}                            
         publish-profile: ${{ secrets.AZURE_WEBAPP_PUBLISH_PROFILE  }} 
-        slot-name: staging
+        slot-name: production
         package: '${{ env.AZURE_WEBAPP_PACKAGE_PATH }}/myapp'
-        
-# Run Selenium tests
-    - name: Run Selenium tests
-      run: dotnet test ${{ env.AZURE_WEBAPP_PACKAGE_PATH }}/myapp/SeleniumTest.dll /Settings:SeleniumTest.runsettings --logger:"trx;LogFileName=selenium.trx"
 
 
