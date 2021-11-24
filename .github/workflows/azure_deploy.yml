@@ -24,7 +24,7 @@ jobs:
     runs-on: windows-latest
     env:
       AZURE_WEBAPP_NAME: BPCalculator20211123205548
-      AZURE_WEBAPP_PACKAGE_PATH: 'publish'
+      AZURE_WEBAPP_PACKAGE_PATH: '.'
     steps:
     - uses: actions/checkout@v2
 
