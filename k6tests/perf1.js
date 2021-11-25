@@ -52,7 +52,7 @@ export let options = {
 // Export a default function - this defines the entry point for your VUs,
 // similar to the main() function in many other languages.
 export default function() {
-  let res = http.get("https://bpcalculator20211123205548.azurewebsites.net");
+  let res = http.get("http://bpcalapp-dev.eu-west-1.elasticbeanstalk.com");
 
   check(res, {
       "is status 200": (r) => r.status === 200
