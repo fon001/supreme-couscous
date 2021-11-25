@@ -1,7 +1,7 @@
-name: k6 BP CALCULATTOR
+name: k6 bp app
 
 on:
-  workflow_dispatch:                  # manually triggered
+  workflow_dispatch:        # manually triggered
 
 jobs:
 
@@ -11,13 +11,10 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-
     - name: Pull Docker image for k6
       run: docker pull loadimpact/k6
-
-    - name: Run k6 load test, capture report
+    - name: Run k6 load test
       run: docker run -i loadimpact/k6 run - <k6tests/perf1.js > k6report.txt
-
     - uses: actions/upload-artifact@v2
       with:
         name: k6report
