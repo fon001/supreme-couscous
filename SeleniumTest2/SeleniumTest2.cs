@@ -4,10 +4,10 @@ using OpenQA.Selenium.Chrome;
 using System;
 using System.Threading;
 
-namespace SeleniumTest
+namespace SeleniumTest2
 {
     [TestClass]
-    public class SeleniumTest
+    public class SeleniumTest2
     {
 
         private TestContext testContextInstance;
@@ -26,8 +26,8 @@ namespace SeleniumTest
         public void Setup()
         {
             // read URL from SeleniumTest.runsettings
-            this.webAppUri = testContextInstance.Properties["webAppUri"].ToString();
-            //this.webAppUri = "http://bpcalapp-dev.eu-west-1.elasticbeanstalk.com";
+            //this.webAppUri = testContextInstance.Properties["webAppUri"].ToString();
+            this.webAppUri = "http://bpcalapp-dev.eu-west-1.elasticbeanstalk.com";
         }
 
 
