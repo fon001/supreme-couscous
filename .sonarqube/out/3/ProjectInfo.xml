@@ -4,14 +4,14 @@
   <ProjectLanguage>C#</ProjectLanguage>
   <ProjectType>Test</ProjectType>
   <ProjectGuid>24844ff8-219e-4361-8761-86c002929d14</ProjectGuid>
-  <FullPath>C:\Users\Fon\source\repos\04-bp-master\BPMUnitTest\BPMUnitTest.csproj</FullPath>
+  <FullPath>C:\Users\Fon\source\repos\supreme-couscous\BPMUnitTest\BPMUnitTest.csproj</FullPath>
   <IsExcluded>false</IsExcluded>
   <AnalysisResults>
-    <AnalysisResult Id="FilesToAnalyze" Location="C:\Users\Fon\source\repos\04-bp-master\.sonarqube\conf\3\FilesToAnalyze.txt" />
+    <AnalysisResult Id="FilesToAnalyze" Location="C:\Users\Fon\source\repos\supreme-couscous\.sonarqube\conf\3\FilesToAnalyze.txt" />
   </AnalysisResults>
   <AnalysisSettings>
-    <Property Name="sonar.cs.roslyn.reportFilePaths">C:\Users\Fon\source\repos\04-bp-master\.sonarqube\out\3\Issues.json</Property>
-    <Property Name="sonar.cs.analyzer.projectOutPaths">C:\Users\Fon\source\repos\04-bp-master\.sonarqube\out\3</Property>
+    <Property Name="sonar.cs.roslyn.reportFilePaths">C:\Users\Fon\source\repos\supreme-couscous\.sonarqube\out\3\Issues.json</Property>
+    <Property Name="sonar.cs.analyzer.projectOutPaths">C:\Users\Fon\source\repos\supreme-couscous\.sonarqube\out\3</Property>
   </AnalysisSettings>
   <Configuration>Debug</Configuration>
   <Platform>AnyCPU</Platform>

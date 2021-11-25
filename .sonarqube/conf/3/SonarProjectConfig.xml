@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SonarProjectConfig xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/analyzer/2021/1">
-  <AnalysisConfigPath>C:\Users\Fon\source\repos\04-bp-master\.sonarqube\conf\SonarQubeAnalysisConfig.xml</AnalysisConfigPath>
-  <ProjectPath>C:\Users\Fon\source\repos\04-bp-master\BPMUnitTest\BPMUnitTest.csproj</ProjectPath>
-  <FilesToAnalyzePath>C:\Users\Fon\source\repos\04-bp-master\.sonarqube\conf\3\FilesToAnalyze.txt</FilesToAnalyzePath>
-  <OutPath>C:\Users\Fon\source\repos\04-bp-master\.sonarqube\out\3</OutPath>
+  <AnalysisConfigPath>C:\Users\Fon\source\repos\supreme-couscous\.sonarqube\conf\SonarQubeAnalysisConfig.xml</AnalysisConfigPath>
+  <ProjectPath>C:\Users\Fon\source\repos\supreme-couscous\BPMUnitTest\BPMUnitTest.csproj</ProjectPath>
+  <FilesToAnalyzePath>C:\Users\Fon\source\repos\supreme-couscous\.sonarqube\conf\3\FilesToAnalyze.txt</FilesToAnalyzePath>
+  <OutPath>C:\Users\Fon\source\repos\supreme-couscous\.sonarqube\out\3</OutPath>
   <ProjectType>Test</ProjectType>
   <TargetFramework>net5.0</TargetFramework>
 </SonarProjectConfig>

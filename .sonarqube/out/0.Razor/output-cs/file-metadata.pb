@@ -1,0 +1,9 @@
+q
+fC:\Users\Fon\source\repos\supreme-couscous\BPCalculator\obj\Debug\net5.0\Razor\Pages\Error.cshtml.g.csutf-8q
+fC:\Users\Fon\source\repos\supreme-couscous\BPCalculator\obj\Debug\net5.0\Razor\Pages\Index.cshtml.g.csutf-8s
+hC:\Users\Fon\source\repos\supreme-couscous\BPCalculator\obj\Debug\net5.0\Razor\Pages\Privacy.cshtml.g.csutf-8z
+oC:\Users\Fon\source\repos\supreme-couscous\BPCalculator\obj\Debug\net5.0\Razor\Pages\Shared\_Layout.cshtml.g.csutf-8ç
+ÅC:\Users\Fon\source\repos\supreme-couscous\BPCalculator\obj\Debug\net5.0\Razor\Pages\Shared\_ValidationScriptsPartial.cshtml.g.csutf-8x
+mC:\Users\Fon\source\repos\supreme-couscous\BPCalculator\obj\Debug\net5.0\Razor\Pages\_ViewImports.cshtml.g.csutf-8v
+kC:\Users\Fon\source\repos\supreme-couscous\BPCalculator\obj\Debug\net5.0\Razor\Pages\_ViewStart.cshtml.g.csutf-8{
+pC:\Users\Fon\source\repos\supreme-couscous\BPCalculator\obj\Debug\net5.0\BPCalculator.RazorTargetAssemblyInfo.csutf-8

@@ -1,6 +1,6 @@
-projectKey=BPCalculator2
+projectKey=BPCalculator3
 serverUrl=http://localhost:9000
 serverVersion=9.1.0.47736
-dashboardUrl=http://localhost:9000/dashboard?id=BPCalculator2
-ceTaskId=AXzMIoShA0bq0ITQGDCy
-ceTaskUrl=http://localhost:9000/api/ce/task?id=AXzMIoShA0bq0ITQGDCy
+dashboardUrl=http://localhost:9000/dashboard?id=BPCalculator3
+ceTaskId=AX1YmPT7KaqL9GzHphoC
+ceTaskUrl=http://localhost:9000/api/ce/task?id=AX1YmPT7KaqL9GzHphoC
