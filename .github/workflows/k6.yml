@@ -1,4 +1,4 @@
-name: k6 bp app
+name: k6
 
 on:
   workflow_dispatch:        # manually triggered
