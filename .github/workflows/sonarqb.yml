@@ -47,9 +47,3 @@ jobs:
           dotnet build
           .\.sonar\scanner\dotnet-sonarscanner end /d:sonar.login="${{ secrets.SONAR_TOKEN }}"
           
-          
-      - name: Upload TestRresults
-        uses: actions/upload-artifact@master
-        with:
-           name: SonarClour Report
-           path: ${{github.workspace}}/Reports
