@@ -1,4 +1,4 @@
-name: Build
+name: SonarCloudBuild
 on:
    #workflow_dispatch 
   push:
