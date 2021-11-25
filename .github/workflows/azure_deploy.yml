@@ -2,7 +2,8 @@ name: BP Calculator
 
 on:
   push:
-    branches: [ master ]
+    #branches: [ master ]
+    workflow_dispatch:        # manually triggered
 
 jobs:
   build_unit_test:                                       
