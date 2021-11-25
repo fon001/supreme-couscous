@@ -28,7 +28,6 @@ namespace SeleniumTest
         [Test]
         public void EnterText()
         {
-            //Assert.Pass();
             IWebElement element1 = driver.FindElement(By.Id("BP_Systolic"));  // id="BP_Systolic"
             element1.Clear();
             element1.SendKeys("89");
