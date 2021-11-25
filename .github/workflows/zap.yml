@@ -1,4 +1,4 @@
-name: ZAP BPCalculator
+name: ZAP 
 
 env:
   URI: http://bpcalapp-dev.eu-west-1.elasticbeanstalk.com         
