@@ -52,10 +52,7 @@ jobs:
         path: TestResults/selenium.trx
       
       
-# login to Azure account
-    - uses: azure/login@v1
-      with:
-        creds: ${{ secrets.AZURE_CREDENTIALS }}
+
         
 
 
