@@ -9,7 +9,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BPMUnitTest", "BPMUnitTest\
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "BDDTEST", "BDDTEST\BDDTEST.csproj", "{86CE1439-AEF7-4A84-93DA-5F5FD68A6E16}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumTest", "SeleniumTest\SeleniumTest.csproj", "{693A7CEF-5804-40D3-A8C6-B2FF8CC5C8D1}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SeleniumTest", "SeleniumTest\SeleniumTest.csproj", "{20017CB7-8507-47CB-86BF-5344F867EE68}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -29,10 +29,10 @@ Global
 		{86CE1439-AEF7-4A84-93DA-5F5FD68A6E16}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{86CE1439-AEF7-4A84-93DA-5F5FD68A6E16}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{86CE1439-AEF7-4A84-93DA-5F5FD68A6E16}.Release|Any CPU.Build.0 = Release|Any CPU
-		{693A7CEF-5804-40D3-A8C6-B2FF8CC5C8D1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{693A7CEF-5804-40D3-A8C6-B2FF8CC5C8D1}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{693A7CEF-5804-40D3-A8C6-B2FF8CC5C8D1}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{693A7CEF-5804-40D3-A8C6-B2FF8CC5C8D1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20017CB7-8507-47CB-86BF-5344F867EE68}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20017CB7-8507-47CB-86BF-5344F867EE68}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20017CB7-8507-47CB-86BF-5344F867EE68}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20017CB7-8507-47CB-86BF-5344F867EE68}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

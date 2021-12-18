@@ -19,7 +19,7 @@ namespace BDDTEST.Features
     
     [System.CodeDom.Compiler.GeneratedCodeAttribute("TechTalk.SpecFlow", "3.9.0.0")]
     [System.Runtime.CompilerServices.CompilerGeneratedAttribute()]
-    [TechTalk.SpecRun.FeatureAttribute("SpecFlowFeBDD1", Description="\tSimple blood Pressure Calculator", SourceFile="Features\\SpecFlowFeBDD1.feature", SourceLine=0)]
+    [TechTalk.SpecRun.FeatureAttribute("SpecFlowFeBDD1", Description="\tSimple Blood Pressure App", SourceFile="Features\\SpecFlowFeBDD1.feature", SourceLine=0)]
     public partial class SpecFlowFeBDD1Feature
     {
         
@@ -34,7 +34,7 @@ namespace BDDTEST.Features
         public virtual void FeatureSetup()
         {
             testRunner = TechTalk.SpecFlow.TestRunnerManager.GetTestRunner();
-            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "SpecFlowFeBDD1", "\tSimple blood Pressure Calculator", ProgrammingLanguage.CSharp, ((string[])(null)));
+            TechTalk.SpecFlow.FeatureInfo featureInfo = new TechTalk.SpecFlow.FeatureInfo(new System.Globalization.CultureInfo("en-US"), "Features", "SpecFlowFeBDD1", "\tSimple Blood Pressure App", ProgrammingLanguage.CSharp, ((string[])(null)));
             testRunner.OnFeatureStart(featureInfo);
         }
         

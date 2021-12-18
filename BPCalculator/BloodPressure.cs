@@ -10,7 +10,6 @@ namespace BPCalculator
         [Display(Name="Ideal Blood Pressure")]  Ideal,
         [Display(Name="Pre-High Blood Pressure")] PreHigh,
         [Display(Name ="High Blood Pressure")]  High,
-        [Display(Name = "Incorrect Range")] Incorrect_Range
 
     };
 
@@ -46,7 +45,7 @@ namespace BPCalculator
                 { return BPCategory.High; }
 
                 else
-                { return BPCategory.Incorrect_Range;}
+                { throw new NotImplementedException("Incorrect Range"); }
             }
         }
     }

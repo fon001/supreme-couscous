@@ -11,35 +11,35 @@ namespace BPMUnitTest
     {
         
         [TestMethod]
-        public void TestLow()
+        public void Low()
         {
-            
-            BloodPressure bp = new BloodPressure() { Systolic = 85, Diastolic = 55 };
-            Assert.AreEqual(BPCategory.Low, bp.Category);
+
+            BloodPressure bloodPressure = new BloodPressure() { Systolic = 89, Diastolic = 59 };
+            Assert.AreEqual(BPCategory.Low, bloodPressure.Category);
         }
 
         [TestMethod]
-        public void TestIdeal()
+        public void Ideal()
         {
 
-            BloodPressure bp = new BloodPressure() { Systolic = 95, Diastolic = 75 };
-            Assert.AreEqual(BPCategory.Ideal, bp.Category);
+            BloodPressure bloodPressure = new BloodPressure() { Systolic = 120, Diastolic = 80 };
+            Assert.AreEqual(BPCategory.Ideal, bloodPressure.Category);
         }
 
         [TestMethod]
-        public void TestPreHigh()
+        public void PreHigh()
         {
 
-            BloodPressure bp = new BloodPressure() { Systolic = 125, Diastolic = 85 };
-            Assert.AreEqual(BPCategory.PreHigh, bp.Category);
+            BloodPressure bloodPressure = new BloodPressure() { Systolic = 140, Diastolic = 90 };
+            Assert.AreEqual(BPCategory.PreHigh, bloodPressure.Category);
         }
 
         [TestMethod]
-        public void TestHigh()
+        public void High()
         {
 
-            BloodPressure bp = new BloodPressure() { Systolic = 145, Diastolic = 95 };
-            Assert.AreEqual(BPCategory.High, bp.Category);
+            BloodPressure bloodPressure = new BloodPressure() { Systolic = 190, Diastolic = 100 };
+            Assert.AreEqual(BPCategory.High, bloodPressure.Category);
         }
     }
 }

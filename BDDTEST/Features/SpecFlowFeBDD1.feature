@@ -1,5 +1,5 @@
 ﻿Feature: SpecFlowFeBDD1
-	Simple blood Pressure Calculator
+	Simple Blood Pressure App
 
 @mylow
 Scenario: Validating Low Blood Pressure
